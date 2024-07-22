@@ -6,7 +6,7 @@ function Content() {
       <>
         <div>
           <div className="border border-light-subtle container-fluid vw-80" style={{position:'relative', top: '100px'}}>
-            <h1 className="intro" style={{marginLeft: "50px", width: '600px', fontSize: '90px', fontFamily: 'cursive', color: 'red'}}>
+            <h1 className="intro" style={{marginLeft: "100px", width: '700px', fontSize: '90px', fontFamily: 'cursive', color: 'red'}}>
                 <span style={{color:'rgb(20,50,220)'}}>Design the website</span> the way 
                 to address yourself
             </h1>

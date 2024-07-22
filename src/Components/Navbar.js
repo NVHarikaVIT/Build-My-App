@@ -22,7 +22,7 @@ function Navbar() {
         <>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top fixed-top bg-body-dark">
             <div className="container-fluid">
-                <Link className="navbar-brand ms-5" to="/Homepage/Home"> <i class="fa-regular fa-address-card me-3 fs-26"></i> Make My Website</Link>
+                <Link className="navbar-brand ms-5" to="/Homepage/Home"> <i class="fa-regular fa-address-card me-3 fs-36"></i> Make My Website</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

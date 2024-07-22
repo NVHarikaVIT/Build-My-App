@@ -146,7 +146,7 @@ function Experience() {
                 return <div className="col-md-6 mb-3" key={exp.id}>
                     <div className="card w-70 h-60">
                       <div className="card-body">
-                        <p className="h3 fw-bold"> {exp.title} </p>
+                        <p className="h3 fw-bold" style={{color: "#d63384"}}> {exp.title} </p>
                         <p className="h4 fs-22"> {exp.institution} </p>
                         <p className="fs-26"> {exp.description} </p>
                         <p className='fs-18'> {exp.startedAt} - {exp.endedAt} </p>

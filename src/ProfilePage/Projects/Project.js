@@ -142,7 +142,7 @@ function Project() {
                 return <div className="col-md-10 mb-2" key={project.id}>
                     <div className="card w-70 h-60">
                       <div className="card-body">
-                        <p className="h3 fw-bold"> {project.name} </p>
+                        <p className="h3 fw-bold" style={{color: "#d63384"}}> {project.name} </p>
                         <p className="fs-26"> {project.description} </p>
                         <p className='fs-18'> {project.startedAt} - {project.endedAt} </p>
                         <a href={project.url} className="h5 fw-light" style={{color: "blue", fontWeight: "bold", fontSize: "20px"}}>{project.url}</a>

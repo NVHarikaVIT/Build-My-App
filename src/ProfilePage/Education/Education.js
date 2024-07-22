@@ -148,7 +148,7 @@ function Education() {
                 return <div className="col-md-6 mb-3" key={study.id}>
                     <div className="card w-200 h-60">
                       <div className="card-body">
-                        <p className="h2 fw-bold"> {study.institutionName} </p>
+                        <p className="h2 fw-bold" style={{color: "#d63384"}}> {study.institutionName} </p>
                         <p className="h4 fs-26"> {study.level} </p>
                         <p className="h5 fw-light">{study.topics}</p>
                         <p className='fs-18'> {study.startedAt} - {study.endedAt} </p>

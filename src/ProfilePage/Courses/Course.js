@@ -146,7 +146,7 @@ function Course() {
                 return <div className="col-md-6 mb-2" key={course.id}>
                     <div className="card w-70 h-60">
                       <div className="card-body">
-                        <p className="h3 fw-bold"> {course.name} </p>
+                        <p className="h3 fw-bold" style={{color: "#d63384"}}> {course.name} </p>
                         <p className="fs-26"> {course.description} </p>
                         <p className='fs-18'> {course.startedAt} - {course.endedAt} </p>
                         <a href={course.certificate} className="h5 fw-light" style={{color: "blue", fontWeight: "bold", fontSize: "20px"}}>{course.certificate}</a>

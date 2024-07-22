@@ -4,7 +4,7 @@ function Topics() {
   return (
     <div>
         <div className='container mt-5' style={{position: "relative", top:"70px"}}>
-          <h2> Popular Topics </h2>
+          <h1 style={{color: "#d63384"}}> Popular Topics </h1>
           <div className="row my-3">
             <div className="col-md-4">
                 <div className="card w-35 h-40">

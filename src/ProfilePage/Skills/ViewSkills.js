@@ -117,7 +117,7 @@ function ViewSkills() {
               return <div className="col-md-3 mb-2" key={skill.id}>
                 <div className="card w-40 h-40">
                   <div className="card-body">
-                    <p className="fs-24 fw-bold"> {skill.name} </p>
+                    <p className="fs-24 fw-bold" style={{color: "#d63384"}}> {skill.name} </p>
                     <div className="d-flex flex-row">
               <button className="btn btn-light" onClick={() => handleDeleteSkill(skill.id)}>
                 <i className="fa fa-trash"></i>

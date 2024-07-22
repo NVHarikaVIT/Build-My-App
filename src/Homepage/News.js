@@ -20,7 +20,7 @@ export class News extends Component {
   render() {
     return (
       <div className='container mt-5 mb-5' style={{position: "relative", top:"60px"}}>
-        <h2> Daily Feed </h2>
+        <h1 style={{color: "#d63384"}}> Daily Feed </h1>
         <div className="row my-3">
         {this.state.articles.map((element) => {
           return <div className="col-md-4" key={element.url}>
