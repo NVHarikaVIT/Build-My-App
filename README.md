@@ -1,3 +1,7 @@
+# Make My Website - Portfolio Builder App
+
+This is the React js based web application, providing the users to create a powerful portfolio dashboard by filling out the necessary details. This is exclusive opportunity rather than coding from scratch or cloning another website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
